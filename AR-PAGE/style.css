@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	height: 100%;
+}
+
+#navbar img {
+	width: 150px;
+	height: 50px;
+	position: relative;	
+	
+}
+
+
+#banner {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url(img/hijau.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#banner img {
+	border-radius: 20px;
+}
+
+
+
+
+#footer p {
+	margin-top: 20px;
+}
+
+#footer {
+	padding: 7px 0;
+	background-color: #008988;
+}

@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #23274c;
+}
+
+
+
+
+/*navbar*/
+#navbar{
+	position: sticky;
+	top: 0;
+	z-index: 1001;
+}
+
+#navbar img {
+	width: 150px;
+	height: 50px;
+	position: relative;
+    margin-left: -50%;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+	/*banner*/
+
+#banner{
+	position: relative;
+	background-image: url(img/bidong.jpg);
+    background-size:  100% 100%;
+	
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+
+.ban-img {
+	position: relative;
+	z-index: 1000;
+}
+
+.banner img {
+	border-radius: 20px;
+}
+
+
+.wave{
+	position: absolute;
+	bottom: -5%;
+	left: 0;
+}
+
+.banner {
+	position: static;
+	
+}
+
+/*content*/
+
+#content{
+	background-image: url(img/biru.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+#content p {
+	font-size: 30px;
+	font-weight: bold;
+	color: #0a3d62;
+	font-family: 'Alata', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+#footer{
+	padding: 10px 0;
+	background-color: #fff;
+	color: #0a3d62;
+	
+
+}
+
+#footer p {
+	margin-top: 10px;
+}
